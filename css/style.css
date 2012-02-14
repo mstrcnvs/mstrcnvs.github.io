@@ -536,7 +536,18 @@ h1 {
 
 h2 {
 	color:#807873;
-	font:normal 80% 'helvetica neue','helvetica',arial,sans-serif;
+	font:normal 100% 'helvetica neue','helvetica',arial,sans-serif;
 	text-align:center;
 	text-shadow:1px 1px #E1E1E1;
+}
+
+a:link,
+a:visited {
+	color:inherit;
+	text-decoration:none;
+}
+
+a:hover,
+a:focus {
+	border-bottom:1px dotted #FFFFFF;
 }
