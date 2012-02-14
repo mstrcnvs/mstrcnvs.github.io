@@ -512,8 +512,9 @@ html, body, h1, h2, a, img {
 }
 
 body {
-	background:#B3B3B3;
+	background:#BBBBAA;
 	padding-top:15%;
+	text-align:center;
 }
 
 a:link,
