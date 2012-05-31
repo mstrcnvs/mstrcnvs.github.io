@@ -140,13 +140,12 @@ section article {
     display: inline-block;
     float: left;
     margin-bottom: 2%;
-    margin-left: 15px;
+    margin-right: 15px;
     padding: 10px;
 }
 
-section article:first-of-type,
 section article:nth-of-type(n+3) {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 section article .thumb {
@@ -256,14 +255,18 @@ section .coming:hover .thumb {
  * Works
  */
 
-.works .midori .thumb {
+#works .midori .thumb {
     background-image: url('/img/thumb-midori.png');
+}
+
+#works .cam .thumb {
+    background-image: url('/img/thumb-cam.png');
 }
 
 /*
  * Projects
  */
 
-.projects .dfm .thumb {
+#projects .dfm .thumb {
     background-image: url('/img/thumb-dfm.png');
 }
