@@ -157,8 +157,9 @@ section article .thumb {
        -moz-border-radius: 5px;
             border-radius: 5px;
     border-top: 1px solid #FFFFFF;
-    cursor: zoom-in;
-    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor:    -moz-zoom-in;
+    cursor:         zoom-in;
     display: inline-block;
     height: 200px;
     overflow: hidden;
