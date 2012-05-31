@@ -216,7 +216,7 @@ footer a:focus {
 
 footer .location {
     background: url('/img/pin.png') left center no-repeat;
-    display: inline-block;
+    display: block;
     line-height: 32px;
     padding-left: 32px;
 }
@@ -225,6 +225,23 @@ footer .mail {
     background: url('/img/mail.png') left center no-repeat;
     display: inline-block;
     line-height: 32px;
+    margin-right: 16px;
+    padding-left: 32px;
+}
+
+footer .twitter {
+    background: url('/img/twitter.png') left center no-repeat;
+    display: inline-block;
+    line-height: 32px;
+    margin-right: 16px;
+    padding-left: 32px;
+}
+
+footer .github {
+    background: url('/img/github.png') left center no-repeat;
+    display: inline-block;
+    line-height: 32px;
+    margin-right: 16px;
     padding-left: 32px;
 }
 
