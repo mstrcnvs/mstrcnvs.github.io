@@ -93,7 +93,7 @@ html, body, header, h1, h2 {
 }
 
 body {
-    background: #EEEEEE url('/img/bg.png') fixed no-repeat center bottom;
+    background: #EEEEEE url('/img/bg.png') fixed no-repeat center center;
     margin: 0 auto;
     max-width: 960px;
 }
@@ -219,6 +219,7 @@ footer {
     color: #F8F4EA;
     font: normal 0.8em arvo;
     padding: 1%;
+    width: 100%;
 }
 
 footer a:link,
