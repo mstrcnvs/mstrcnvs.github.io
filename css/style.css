@@ -300,6 +300,10 @@ section .coming:hover .thumb {
     background-image: url('/img/thumb-cam.png');
 }
 
+#works .player .thumb {
+    background-image: url('/img/thumb-player.png');
+}
+
 /*
  * Projects
  */
