@@ -94,7 +94,7 @@ header, section, article {
 body {
     background: #EEEEEE url('/img/bg.png') fixed no-repeat center center;
     margin: 0 auto;
-    min-width: 960px;
+    max-width: 960px;
 }
 
 header {
