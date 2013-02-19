@@ -76,7 +76,12 @@ img {
  * let's clear some floats
  */
 
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:before, .clearfix:after { 
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; 
+}
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; } 
 
@@ -93,8 +98,10 @@ header, section, article {
 
 body {
     background: #EEEEEE url('/img/bg.png') fixed no-repeat center center;
-    margin: 0 auto;
+    background-size: cover;
+    margin: 20px auto 0 auto;
     max-width: 960px;
+    padding: 0 20px;
 }
 
 header {
@@ -308,4 +315,8 @@ section .coming:hover .thumb {
 
 #projects .dfm .thumb {
     background-image: url('/img/thumb-dfm.png');
+}
+
+#projects .gameology .thumb {
+    background-image: url('/img/thumb-gameology.png');
 }
