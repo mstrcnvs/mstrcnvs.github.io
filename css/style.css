@@ -124,8 +124,8 @@ header h1 {
 header h2 {
     color: #B3B3B3;
     font: normal 1em 'arvo';
-    text-shadow: 1px 1px #FFFFFF;
     margin-top: 1%;
+    text-shadow: 1px 1px #FFFFFF;
 }
 
 section {
