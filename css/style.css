@@ -224,7 +224,7 @@ footer {
     border-top: 3px solid #FAFAFA;
     color: #F8F4EA;
     font: normal 0.8em 'arvo';
-    padding: 1%;
+    padding: 1.5% 2%;
     width: 100%;
 }
 
@@ -244,6 +244,7 @@ footer .location {
     display: block;
     line-height: 32px;
     padding-left: 32px;
+    margin-top: 10px;
 }
 
 footer .mail {
