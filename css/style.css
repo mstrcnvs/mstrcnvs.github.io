@@ -310,6 +310,10 @@ section .coming:hover .thumb {
     background-image: url('/img/thumb-player.png');
 }
 
+#works .boatxperience .thumb {
+    background-image: url('/img/thumb-boatxperience.png')
+}
+
 /*
  * Projects
  */
